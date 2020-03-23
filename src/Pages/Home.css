@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');/* font-family: 'Pacifico', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap'); /* font-family: 'Dancing Script', cursive;   */
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap'); /*  font-family: 'Satisfy', cursive;   */
+.principal{
+  
+
+      /* The image used */
+  background-image: url('../Images/logo.jpeg');
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.aVenda{
+    margin-top: 90px;
+    padding-bottom: 600px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    text-decoration: none;
+   
+}
+.produtos{
+    background-image: url('../Images/floresFundo.jpg');
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+}
+
+.cartoes{
+    width: 350px;
+    background: linear-gradient(83deg, #02ffee 0%, #22b0b4 51%, #02ffee 85%);
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    
+}
+.cartoes img{
+    border-radius: 10px;
+    border: 1px solid cadetblue;
+}
+.aVendacelular{
+    
+    padding-top: 500px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    text-decoration: none;
+}
+.principalcelular{
+  
+
+    /* The image used */
+background-image: url('../Images/logo.jpeg');
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position-x: 0;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
