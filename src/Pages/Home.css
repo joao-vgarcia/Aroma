@@ -11,12 +11,13 @@
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position-x: center;
+  background-position-y: 00px;
   background-repeat: no-repeat;
   background-size: contain;
 }
 .aVenda{
-    margin-top: 90px;
-    padding-bottom: 600px;
+    padding-top: 60px;
+    padding-bottom: 700px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 65px;
@@ -33,17 +34,6 @@
     
 }
 
-.cartoes{
-    width: 350px;
-    background: linear-gradient(83deg, #02ffee 0%, #22b0b4 51%, #02ffee 85%);
-    border: 1px solid cadetblue;
-    border-radius: 10px;
-    
-}
-.cartoes img{
-    border-radius: 10px;
-    border: 1px solid cadetblue;
-}
 .aVendacelular{
     
     padding-top: 500px;
@@ -62,7 +52,42 @@ background-image: url('../Images/logo.jpeg');
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
 background-position-x: 0;
+background-position-y: 60px;
 background-repeat: no-repeat;
 background-size: contain;
+}
+.titulo{
+
+    background-color: white;
+   
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    text-decoration: none;
+
+}
+
+.botao1{
+    background-image: url('../Images/botao1.jpg');
+    background-repeat:repeat-x;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 20px;
+  
+
+}
+
+.fundo1{
+    background-attachment: fixed;
+    background-position-x: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../Images/botao2.jpg');
+
 }
 

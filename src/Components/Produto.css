@@ -1,0 +1,12 @@
+
+.cartoes{
+    width: 300px;
+    background: linear-gradient(83deg, #02ffee 0%, #22b0b4 51%, #02ffee 85%);
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    
+}
+.cartoes img{
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+}
