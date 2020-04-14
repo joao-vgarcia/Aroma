@@ -33,7 +33,7 @@ export default class Produto extends Component {
 
 
                             <div className="modal-body">
-                                <img className="img-fluid" src="https://lojacutcolor.com.br/product_images/o/845/Dark_Sab._Artesanal__33505_thumb.jpg" alt="Card image" />
+                                <img className="img-fluid" src={this.props.imagem} alt="Card image" />
                                 <p className="card-text">{this.props.detalhe}</p>
                                 <p className="card-text">{this.props.preco}</p>
                                 
