@@ -11,7 +11,7 @@ const Email = (props) => {
 
   return (
     <div>
-      <Button id="Email" type="button" className="btn-block" style={{backgroundColor:'#0c3a3c', border:'none'}}>
+      <Button id="Email" type="button" className="btn-block" style={{backgroundColor:'unset', border:'none'}}>
         <MdLocalPostOffice style={{fontSize:'40px', color:'white'}}/>
       </Button>
       <Popover placement="top" isOpen={popoverOpen} target="Email" toggle={toggle}>
@@ -28,7 +28,7 @@ const Telefone = (props) => {
 
   return (
     <div>
-      <Button id="Telefone" type="button" className="btn-block" style={{backgroundColor:'#0c3a3c', border:'none'}}>
+      <Button id="Telefone" type="button" className="btn-block" style={{backgroundColor:'unset', border:'none'}}>
         <IoIosCall style={{fontSize:'40px', color:'white'}}/>
       </Button>
       <Popover placement="top" isOpen={popoverOpen} target="Telefone" toggle={toggle}>
@@ -51,7 +51,7 @@ export default class Footer extends Component{
     render(){
         return(
             <>
-                <div className="container-fluid" style={{backgroundColor:'#0c3a3c'}}>
+                <div className="container-fluid footerback">
                     <div className='row justify-content-center '>
                       
                         <div className="col-md-12 col-sm-12 sobreFooter">

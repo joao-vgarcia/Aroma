@@ -35,7 +35,7 @@ export default class Produto extends Component {
                             <div className="modal-body">
                                 <img className="img-fluid" src={this.props.imagem} alt="Card image" />
                                 <p className="card-text">{this.props.detalhe}</p>
-                                <p className="card-text">{this.props.preco}</p>
+                                <p className="card-text">R$ {this.props.preco}</p>
                                 
                             </div>
 
