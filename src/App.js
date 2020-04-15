@@ -1,17 +1,28 @@
 import React, {Fragment} from 'react';
 import Sidebar from './Components/Sidebar'
-import Home from '../src/Pages/Home'
 import Footer from './Components/Footer'
+import { BrowserRouter } from "react-router-dom";
+import Routes from "./Routes";
+
 
 
 export default function App() {
-  return (<>
-    <div >
+  return (
+    <div className="App">
+      
+
+      <BrowserRouter>
+      
       <Sidebar/>
-      <Home/>
+      <Routes/>
       <Footer/>
+     
+      </BrowserRouter>
+     
+     
     </div>
-    </>
   );
 }
+
+
 
