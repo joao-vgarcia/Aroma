@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+.vejaAqui{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    text-decoration: none;
+}
+.todoPro{
+    background-attachment: fixed;
+    background-position-x:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../Images/botao1.jpg');
+}
+.todoPro img{
+    max-width: 600px;
+}

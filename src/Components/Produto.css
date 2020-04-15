@@ -1,6 +1,6 @@
 
 .cartoes{
-    width: 310px;
+    max-width: 100%;
     background: linear-gradient(83deg, #09b1a6 0%, #189296 51%, #0c3a3c 85%);
     border: 1px solid cadetblue;
     border-radius: 10px;
@@ -9,4 +9,7 @@
 .cartoes img{
     border-radius: 10px;
     border: 2px solid cadetblue;
+    max-height: 300px;
+    max-width: 300px;
+    
 }
